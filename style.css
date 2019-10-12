@@ -29,3 +29,9 @@ p {
   justify-content: center;
   height: 100vh;
 }
+
+.wrapper-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
