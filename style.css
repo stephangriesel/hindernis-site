@@ -4,10 +4,21 @@ body {
 
 a {
   color: #999;
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(190, 190, 190);
+  transition: 1s ease-in-out;
+}
+
+.btn {
+  margin: 1em;
 }
 
 .logo {
-  width: 50em;
+  width: 100%;
+  max-width: 50em;
 }
 
 .navbar-brand {
